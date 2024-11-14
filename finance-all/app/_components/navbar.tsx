@@ -3,7 +3,7 @@
 import { UserButton } from "@clerk/nextjs";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
+import { usePathname } from "next/navigation"; // hook
 
 const Navbar = () => {
   const pathname = usePathname();
