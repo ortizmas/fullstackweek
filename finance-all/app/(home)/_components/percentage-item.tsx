@@ -1,3 +1,4 @@
+// biome-ignore lint/style/useImportType: <explanation>
 import { ReactNode } from "react";
 
 interface PercentageItemProps {
